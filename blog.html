@@ -1,0 +1,163 @@
+<!-- this html is written by weinan li -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-M6WGPB9');</script>
+        <!-- End Google Tag Manager -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <meta charset="utf-8" name="description" content="Weinan Li's blog">
+        <meta name="keywords" content="user experience design, interface design, ux design, ui design, visual design, user research, front end development, boston">
+        <meta name="author" content="Weinan Li">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Blog - Weinan Li</title>
+        <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
+        <link href="_css/_stylesheet.css" rel="stylesheet">
+        <link rel="icon" href="http://www.weinanli.com/_image/fav.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="http://www.weinanli.com/_image/fav.ico" type="image/x-icon" />
+        <script type="text/javascript" src="_script/jquery-3.3.1.js"></script>
+        <script type="text/javascript" src="_script/_myscript.js" ></script>
+    </head>
+    <body>
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M6WGPB9"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+        <header role="banner">
+            <a href="index.html">
+                <img class="logo-img" src="_image/logo_bk.png" height=120px alt="Weinan Li">
+                <div class="vl"></div>
+                <div class="logo-intro"><span style="font-size:25px;">Weinan Li</span><br><span>UX Designer</span></div>
+            </a>
+            <hr class="logo-bar">
+            <nav role="navigation" id="myHeader">
+                <pre><a href="index.html">work</a>       <a href="blog.html" class="selected">writing</a>       <a href="about.html" title="about me page">about</a></pre>
+            </nav>
+        </header>
+        <main class="blog-article" style="background-color: white;" role="main">
+            <section id="section4">
+                <div style="text-align: center">
+                    <p style="color:darkgray;"><b>April 3, 2019</b></p>
+                    <h1 class="no-margin" role="heading" aria-level="2" style="color:black;">MOCKUP ANIMATION</h1>
+                </div>
+                <br>
+                <p style="color:black;">I recently experimented with my new workflow for animated mockups using Sketch, Adobe XD and Final Cut Pro. It took me about 8 hours to go from crap to something I felt comfortable with. The final production is a 15&dash;second video.
+                    <br><br><video preload="auto" controls loop>
+                        <source src="/_media/food_app480.mp4" type="video/mp4">
+                    </video>
+                    <br>For this project, I had to blueprint my process so the design file can be<span id="dots4">...</span><span class="hide-more" id="more4"> successfully passed from one tool to another. It is crucial that all the nitty-gritties are taken care of before I jump into design.
+                    <br><br><strong>Sketch</strong>
+                    <br><br>Sketch is my go&dash;to place for designing icons or any vector graphics. It has more powerful shape manipulation tools than Adobe XD, InVision Studio and Framer X. I started out in Sketch to create all the icons I need later.
+                    <br><br><strong>Adobe XD</strong>
+                    <br><br>Adobe XD &lpar;or simply XD&rpar; then took over the process in UI design and prototyping. Prototyping in XD is quick and intuitive. Its Auto-Animate feature creates stunning transition effect like a breeze.
+                    <br><br>XD also has a built-in recording feature that generates action movies for my prototype, a feature I fell in love immediately. On the flip side, XD doesn’t offer key&dash;frame adjustment, so my control on animation is significantly reduced.
+                    <br><br><strong>Final Cut Pro</strong>
+                    <br><br>In my final process, I compiled four layers &lpar;three footages and one still image&rpar; in Final Cut Pro. The trick here is to time the footages perfectly to make my final production coherent and fluid.
+                    <br><br>It was fun to see the ideas come to fruition. Having this workflow, it is easier to build up captivating narratives around my future designs.</span>
+                </p>
+                <br><br>
+                <div class="toggle" style="text-align: center">
+                    <a onclick="articleToggle(4)" id="toggle4">Show More</a>
+                </div><br>
+            </section>
+            <hr class="blog-bar">
+            <section id="section3">
+                <div style="text-align: center">
+                    <p style="color:darkgray;"><b>March 3, 2019</b></p>
+                    <h1 class="no-margin" role="heading" aria-level="2" style="color:black;">SCROLLSPY</h1>
+                </div>
+                <br>
+                <p style="color:black;">This website is constantly evolving since its birth, a process that helps me bridge the gap between design and development.
+                    <br><br>Lately I received feedbacks on my case study pages, and decided to add an internal page nav with a Scrollspy feature for better usability. I threw myself into<span id="dots3">...</span><span class="hide-more" id="more3"> the weeds again.                     
+                    <br><br><strong>Act One</strong>                       
+                    <br><br>One thing I am good at is to mentally model a product. Even with limited knowledge on JavaScript, I constructed a vivid idea on how to make it happen.     
+                    <br><br>Using jQuery <a href="http://api.jquery.com/offset/" target="_blank">.offSet&lpar;&rpar;</a> and <a href="https://api.jquery.com/scrollTop/" target="_blank">.scrollTop&lpar;&rpar;</a> methods, I successfully coded a page nav bar that toggles between certain states. But the challenge is to make each anchor link highlighted when the page is scrolled to its corresponding section. A straight conditional statement was to little avail.                   
+                    <br><br><strong>Act Two</strong>                        
+                    <br><br>Chasing down a web development instructor at General Assembly, I was told that <a href="https://getbootstrap.com/docs/4.0/components/scrollspy/" target="_blank">Bootstrap</a> offers a framework for the similar feature. &lpar;This is how I learned the word &ldquo;Scrollspy&rdquo;&rpar;                    
+                    <br><br>There was a significant learning curve for me on Bootstrap. After hours of fiddling, tweaking and testing, Bootstrap successfully muddled my CSS. I had no choice but abandoning it all together.   
+                    <br><br>However, don’t get me wrong! Bootstrap would have been remarkably helpful if I used it from ground up. And by digging into its source code, I distilled a ton of valuable insight. No effort is wasted.                   
+                    <br><br><strong>Act Three</strong>
+                    <br><br>By this point, I have come across dozens of tutorials on CSS and jQuery. Though no one gave me the magical recipe for the exact page nav I need, they all touched on some part of it.
+                    <br><br>On March 1, I found the last missing piece to the puzzle – the <a href="https://api.jquery.com/each/" target="_blank">.each&lpar;&rpar;</a> method. After sticking things together, my JavaScript finally worked. The entire process took me three days.
+                    <br><br>Strangely, whenever I thought of giving up, there were new ideas bursting into my head. Some mystical power kept me moving forward in this toilsome yet exciting exploration.
+                    <br><br>You can see my page nav in action &lpar;only on screen size of 1100px or wider&rpar; on <a href="city-of-boston.html" target="_blank">this case study page</a>.</span>
+                </p>
+                <br><br>
+                <div class="toggle" style="text-align: center">
+                    <a onclick="articleToggle(3)" id="toggle3">Show More</a>
+                </div><br>
+            </section>
+            <hr class="blog-bar">
+            <section id="section2">
+                <div style="text-align: center">
+                    <p style="color:darkgray;"><b>JANUARY 25, 2019</b></p>
+                    <h1 class="no-margin" role="heading" aria-level="2" style="color:black;">MY WEB DEV 101</h1>
+                </div>
+                <br>
+                <p style="color:black;">Though I had no prior web development knowledge, I built this website from ground up by pure self-studying. This article is for me to document my journey and process.                     
+                    <br><br><strong>Make a Leap of Faith</strong>                       
+                    <br><br>Everyone can learn coding.
+                    <br><br>I used to suck at coding. I almost flunked my CS101 in college. However, when I was<span id="dots2">...</span><span class="hide-more" id="more2"> studying UX design, I asked myself: isn’t it awesome to see my design come alive in my own hands? This rhetorical question inspired me to make my leap of faith.                 
+                    <br><br>Find out the “thirst” that drives you to code. Ignite that fire, and move on. True passion can take you further than you think.           
+                    <br><br><strong>Trust the Process</strong>                        
+                    <br><br>Coding is not a rocket science! What you need is a good code editor. <a href="https://code.visualstudio.com" target="_blank">VS Code</a> is my favorite so far.                       
+                    <br><br>Start with Hypertext Markup Language (HTML), the easiest of the three front-end languages. A solid understanding of <a href="https://www.w3schools.com/whatis/whatis_htmldom.asp" target="_blank">Document Object Model (DOM)</a> and common tags (including their attributes) is essential to cement your foundation.   
+                    <br><br>For Cascading Style Sheet (CSS), make sure you firmly grasp the concept of the <a href="https://www.w3schools.com/css/css_boxmodel.asp" target="_blank">box model</a> and the <a href="https://www.w3schools.com/html/html_blocks.asp" target="_blank">two types of elements</a> (i.e. block vs. inline).                      
+                    <br><br>In fact, you can make decent webpages just by using HTML and CSS. Experiment with these two, and get a sense of how they work together.                       
+                    <br><br>The learning curve for JavaScript is higher due to its complex syntax and algorithm. Because this is a realm that I’m still exploring, I’ll leave it here for now.                   
+                    <br><br>Stay patient, positive, resourceful, and practice everyday. Let time lead you to the success.
+                    <br><br><strong>Get the Most out of Nothing</strong>
+                    <br><br>There are many good free resources out there.
+                    <br><br><a href="https://www.w3schools.com" target="_blank">W3Schools</a> and <a href="https://developer.mozilla.org/en-US/" target="_blank">MDN Web Docs</a> are amazing. I frequented W3Schools when I was punching codes for this website. To me, it's the Wikipedia for web development. I also watched dozens of tutorials on <a href="https://www.lynda.com" target="_blank">Lynda.com</a> (my <a href="https://www.bpl.org/learning-tools/online-courses/" target="_blank">BPL</a> card gives me free membership).
+                    <br><br>If you really get stuck, web developers are everywhere. Find them in meetups or <a href="https://www.codeforboston.org" target="_blank">hackathons</a> and ask well-informed questions.
+                    <br><br>Learning to code is not a sprint, but a marathon of problem solving. Though it takes time and efforts, you will be impressed by how much you can accomplish.</span>
+                </p>
+                <br><br>
+                <div class="toggle" style="text-align: center">
+                    <a onclick="articleToggle(2)" id="toggle2">Show More</a>
+                </div><br>
+            </section>
+            <hr class="blog-bar">
+            <section id="section1">
+                <div style="text-align: center">
+                    <p style="color:darkgray;"><b>JANUARY 21, 2019</b></p>
+                    <h1 class="no-margin" role="heading" aria-level="2" style="color:black;">INCEPTION</h1>
+                </div>
+                <br>
+                <p style="color:black;">In 2015, I started a <a href="http://www.thezenyoga.com" target="_blank">yoga business</a> in China. Working with a small team, I enjoyed the freedom to experiment with creative, sometimes ridiculous, ideas on anything, from filming bloopers to hosting beer yoga &lpar;obviously did not work out&rpar;. The most demanding project was moving the entire operation to a CRM system.
+                    <br><br>
+                    The team saw no urgency of using CRM until early 2016, when we decided to<span id="dots1">...</span><span class="hide-more" id="more1"> open the second location. I voiced my idea and got supported… at least verbally, since no one had experience doing it, including myself.
+                    <br><br>
+                    There are two ways: build or buy. I quickly dismissed the first “strategy” before starting to search for the product. A couple CRM systems in the US grabbed my attention at first. However, in spite of good quality, they required connection to Google, which was &lpar;and still is&rpar; blocked by the omnipotent “great firewall”. Understanding this constraint, I turned back to Chinese providers.
+                    <br><br>
+                    Surprisingly, there were plenty of Chinese companies developing SaaS systems in early 2016. To get the best product, I conceived an evaluation plan based on three criteria: safety, performance and design. The plan led our way to a startup that met our specifications.
+                    <br><br>
+                    However, real challenge was in the system’s implementation. Briefly speaking, PEOPLE HATE CHANGES! Adding to that complexity, some existing SOPs didn't fit into the CRM and required procedural modifications. This made cooperative managers a little defiant too. There were moments where I felt like bucking the trend.
+                    <br><br>
+                    Facing the resistance, I brought stakeholders face-to-face to resolve conflicts and tackle stagnated issues one at a time. Even in a small business like us, I sensed the egregious office politics creeping in. Only by redirecting our attention to common goals helped ease the tension.
+                    <br><br>
+                    Out of those stormy months, I learned so much about business and humans. Now, our CRM system is still up and running. Since September 2016, it has boosted our operational effectiveness and enabled us to scale up with ease.
+                    <br><br>
+                    My work finally paid off, and all those craziness are just old jokes now.
+                    <br><br>
+                    <em>TL&semi;DR. I installed a CRM system that helped grow my customer base by ten times.</em></span>
+                </p>
+                <br><br>
+                <div class="toggle" style="text-align: center">
+                    <a onclick="articleToggle(1)" id="toggle1">Show More</a>
+                </div><br>
+            </section>
+        </main>
+        <!-- footer for contact info -->
+        <footer role="contentinfo">
+            <pre><a class="fa-icon" href="https://www.linkedin.com/in/weinanli/" title="my LinkedIn" target="_blank"><i class="fab fa-linkedin-in"></i></a>&nbsp;<a class="fa-icon" href="https://dribbble.com/weinanli" title="my Dribbble" target="_blank"><i class="fab fa-dribbble"></i></a>&nbsp;<a class="fa-icon" href="https://github.com/sanktion13" title="my GitHub" target="_blank"><i class="fab fa-github"></i></a></pre>
+            <p>I designed and coded this website from scratch &copy; 2019 Weinan Li</p>
+        </footer>
+    </body>
+</html>

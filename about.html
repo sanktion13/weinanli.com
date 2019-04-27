@@ -1,0 +1,73 @@
+<!-- this html is written by weinan li -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-M6WGPB9');</script>
+        <!-- End Google Tag Manager -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <meta charset="utf-8" name="description" content="About Weinan Li">        
+        <meta name="keywords" content="user experience design, interface design, ux design, ui design, visual design, user research, front end development, boston">
+        <meta name="author" content="Weinan Li">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About - Weinan Li</title>
+        <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
+        <link href="_css/_stylesheet.css" rel="stylesheet">
+        <link rel="icon" href="http://www.weinanli.com/_image/fav.ico" type="image/x-icon" />
+		<link rel="shortcut icon" href="http://www.weinanli.com/_image/fav.ico" type="image/x-icon" />
+    </head>
+    <!-- the begining of the web -->
+    <body onload="typewriter()">
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M6WGPB9"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+        <header role="banner">
+            <a href="index.html">
+                <img class="logo-img" src="_image/logo_bk.png" height=120px alt="Weinan Li">
+                <div class="vl"></div>
+                <div class="logo-intro"><span style="font-size:25px;">Weinan Li</span><br><span>UX Designer</span></div>
+            </a>
+            <hr class="logo-bar">
+            <nav role="navigation" id="myHeader">
+                <pre><a href="index.html">work</a>       <a href="blog.html">writing</a>       <a href="about.html" class="selected" title="about me page">about</a></pre>
+            </nav>
+        </header>
+        <main role="main">
+            <!-- introduction of me -->
+            <div class="project">
+                <div class="wrapper">
+                    <img class="self-pic" src="_image/head_pic.JPG" height="300px" Witdth="300px">
+                    <h1 class="personal-intro" id="typeHere">H</h1><br>
+                    <p class="personal-intro">Thanks for stopping by! I’m a UX designer with focus on user research and UI design. Currently I'm based in Boston, MA.<br>
+                    <br>Apart from my work, I'm also passionate about yoga, snowboarding and front-end programming! &lpar;In case you are wondering, this website is designed and hand coded by me.&rpar;<br>
+                    <br class="personal-intro">Check my <a href="_doc/WeinanLiResume.pdf" title="My resume" target="_blank">resume</a> for more information, or find me on <a href="https://www.linkedin.com/in/weinanli/" title="My LinkedIn page" target="_blank">LinkedIn</a>, or email me at <a href="mailto:contact@weinanli.com" title="Send me email">contact&commat;weinanli.com</a>.
+                    </p>
+                </div>
+            </div>
+            <img class="gallery" src="_image/photo_gallery.jpg">
+        </main>
+        <!-- footer for contact info -->
+        <footer role="contentinfo">
+            <pre><a class="fa-icon" href="https://www.linkedin.com/in/weinanli/" title="my LinkedIn" target="_blank"><i class="fab fa-linkedin-in"></i></a>&nbsp;<a class="fa-icon" href="https://dribbble.com/weinanli" title="my Dribbble" target="_blank"><i class="fab fa-dribbble"></i></a>&nbsp;<a class="fa-icon" href="https://github.com/sanktion13" title="my GitHub" target="_blank"><i class="fab fa-github"></i></a></pre>
+            <p>I designed and coded this website from scratch &copy; 2019 Weinan Li</p>
+        </footer>
+        <script>
+        var i = 0,
+            text = "I, I'M WEINAN";
+        function typewriter() {
+            if (i < text.length) {
+                document.getElementById("typeHere").innerHTML += text.charAt(i);
+                i++;
+                setTimeout(typewriter, 120);
+            }
+        }
+        </script>
+    </body>
+</html>
+
