@@ -396,22 +396,24 @@ figcaption {
 .footing {
     border: 1px solid #191d23;
     height: 80px;
-    text-align: center;
     color: #ffffff;
     background-color: #191d23;
 }
-.back-to-top {
-    line-height: 15px;
-    margin: 33px 0;
-}
-.back-to-top > a {
+.footing > a {
     text-decoration: none;
     font-family: Arial, sans-serif;
     font-size: 13px;
+    line-height: 15px;
+    width: 250px;
+    padding: 30px 0;
     color: #ffffff;
 }
-.back-to-top :hover {
+.footing > a:hover {
     color: #ff0000;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
 }
 .fleft {
     text-align: left;
@@ -421,14 +423,6 @@ figcaption {
     text-align: right;
     margin-right: 20px;
 }
-.flex-container {
-    display: flex;
-    justify-content: space-between;
-}
-.flex-container > a {
-    width: 250px;
-}
-
 @media screen and (max-width:800px) {
     .article-wrap {
         margin:0px; /*don't change*/
