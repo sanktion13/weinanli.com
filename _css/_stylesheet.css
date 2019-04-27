@@ -413,6 +413,22 @@ figcaption {
 .back-to-top :hover {
     color: #ff0000;
 }
+.fleft {
+    text-align: left;
+    margin-left: 20px;
+}
+.fright {
+    text-align: right;
+    margin-right: 20px;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+.flex-container > a {
+    width: 250px;
+}
+
 @media screen and (max-width:800px) {
     .article-wrap {
         margin:0px; /*don't change*/
@@ -453,6 +469,9 @@ figcaption {
     }
     figcaption {
         font-size: 14px;
+    }
+    a > .mohide {
+        display: none;
     }
 }
 /* ------------blog global------------ */
