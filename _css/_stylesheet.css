@@ -93,22 +93,24 @@ header a {
 }
 
 .dropdown-content {
-    /* border: 2px green solid; */
+    box-shadow: gray 0px 0px 5px;
     display: none;
     position: absolute;
-    right: 210px;
-    background-color: rgba(128, 128, 128, 0.3);
+    /* right: 210px; */
+    background-color: rgba(255, 255, 255, 0.8);
     width: 260px;
     z-index: 1;
-    padding: 10px 20px;
+    padding: 5px 20px;
 }
 .dropdown-content a {
-    /* border: 2px red solid; */
+    line-height: 2rem;
+    border-left: 2px solid transparent;
     float: none;
     display: block;
     width: 100%;
-    margin: 10px 0px;
-    text-align: center;
+    margin: 20px 0px;
+    padding-left: 10px;
+    text-align: left;
     border-bottom: none;
 }
 
