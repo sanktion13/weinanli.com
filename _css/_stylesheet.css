@@ -172,12 +172,12 @@ main p {
     color: #000000;
     margin: 0;
 }
-p a {
+p a, li a {
     color: #8b0000;
     text-decoration: underline;
     font-weight: 500;
 }
-p a:hover {
+p a:hover, li a:hover {
     color: #ffffff;
     background-color: #8b0000;
 }
@@ -222,6 +222,19 @@ p a:hover {
     background-color:#ffffff;
     margin: 50px 100px;
     padding: 50px 50px;
+    overflow: auto;
+}
+.my-gallery {
+    margin-top: -50px;
+    margin-bottom: -10px;
+    padding: 0 100px;
+    width: 100%;
+}
+.more-about-me {
+    text-align: left;
+    background-color:#ffffff;
+    margin: 0 100px 50px 100px;
+    padding: 20px 50px 50px 50px;
     overflow: auto;
 }
 .greeting {
@@ -273,6 +286,17 @@ p a:hover {
         margin: 30px 10px;
         padding: 30px 30px;
     }
+    .my-gallery {
+        margin-top: -30px;
+        margin-bottom: -40px;
+        padding: 0 10px;
+        width: 100%;
+    }
+    .more-about-me {
+        text-align: center;
+        margin: 30px 10px;
+        padding: 0px 30px 30px 30px;
+    }
     .button {
         margin-top: 30px;
         padding: 12px 28px;
@@ -303,7 +327,7 @@ p a:hover {
         display: block;
         text-align: center;
     }
-    .personal-intro {
+    .mobile-left {
         text-align: left;
     }
 }
